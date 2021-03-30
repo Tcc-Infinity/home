@@ -84,6 +84,14 @@ section li {
 .author{
   line-height: 0.5;
 }
+.poem p{
+  margin-bottom: 10px;
+}
+.quote{
+   margin: 10px 0;
+   padding: 5px;
+   border: 1px solid #999;
+}
 
 @media only screen and (max-width: 815px) {
   /* For mobile phones: */
