@@ -395,7 +395,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   text-decoration: none;
 }
-#member .btn-get-started {
+.btn-get-started {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
   font-size: 14px;
@@ -413,7 +413,7 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
-#member .btn-get-started:hover {
+.btn-get-started:hover {
   background: #ef6603;
   color: #000;
   text-decoration: none;
