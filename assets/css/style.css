@@ -395,7 +395,29 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   text-decoration: none;
 }
+#member .btn-get-started {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 50px;
+  transition: 0.5s;
+  line-height: 1;
+  margin: 10px;
+  color: #000;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  border: 2px solid #ef6603;
 
+}
+
+#member .btn-get-started:hover {
+  background: #ef6603;
+  color: #000;
+  text-decoration: none;
+}
 @media (min-width: 1024px) {
   #hero p {
     width: 60%;
@@ -831,6 +853,12 @@ section {
   padding: 60px 0;
 }
 
+#teama {
+  background: #fff;
+  padding: 0px 0;
+
+}
+
 .team .member {
   margin-bottom: 20px;
   overflow: hidden;
@@ -842,6 +870,7 @@ section {
 .team .member .member-img {
   position: relative;
   overflow: hidden;
+  height: 250px;
 }
 
 .team .member .social {
